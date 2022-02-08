@@ -1,0 +1,52 @@
+.mainCard {
+  border-radius: 10px;
+  background: #222222;
+  box-shadow: inset 20px 20px 60px #1d1d1d, inset -20px -20px 60px #272727;
+  width: 350px;
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+
+.headerCard {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.balance {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.btnAdd {
+  vertical-align: middle;
+}
+
+.icons {
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.result {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 1rem 0;
+}
+
+.expenseValue,
+.incomeValue {
+  border-radius: 10px;
+  background: #222222;
+  box-shadow: 5px 5px 15px #1d1d1d, -5px -5px 15px #272727;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

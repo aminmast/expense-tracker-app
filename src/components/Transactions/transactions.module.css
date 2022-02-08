@@ -1,0 +1,39 @@
+.transactionsList {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  background: #222222;
+  box-shadow: inset 20px 20px 60px #1d1d1d, inset -20px -20px 60px #272727;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.transactionItem {
+  border-radius: 10px;
+  background: #222222;
+  box-shadow: 5px 5px 15px #1d1d1d, -5px -5px 15px #272727;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.transactionDate {
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+    padding: 0 0.5rem;
+}
+
+.expenseItem {
+    border-left: 5px solid #f0506e ;
+}
+
+.incomeItem {
+    border-left: 5px solid #32d296 ;
+}
