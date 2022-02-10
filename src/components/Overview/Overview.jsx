@@ -8,7 +8,7 @@ const Overview = ({ expense, income, addTransaction }) => {
   const [isShow, setIsShow] = useState(false);
 
   return (
-    <>
+    <div className={style.mainCol}>
       <div className={style.mainCard}>
         <header className={style.headerCard}>
           <img src={logo} alt="logo" style={{ width: "40px" }} />
@@ -29,14 +29,22 @@ const Overview = ({ expense, income, addTransaction }) => {
         {isShow && <TransactionForm addTransaction={addTransaction} />}
         <div className={style.result}>
           <div className={style.expenseValue}>
-            <span className="uk-text-danger">expense : {expense}</span>
+            <span className="uk-text-danger">
+              expense :
+              <br />
+              {expense} $
+            </span>
           </div>
           <div className={style.incomeValue}>
-            <span className="uk-text-success">income : {income}</span>
+            <span className="uk-text-success">
+              income :
+              <br />
+              {income} $
+            </span>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

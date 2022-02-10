@@ -21,7 +21,7 @@ const ExpeseApp = () => {
         expense={expense}
         addTransaction={addTransaction}
       />
-      <Transactions transactions={transactions} />
+      {transactions.length > 0 && <Transactions transactions={transactions} />}
     </>
   );
 };
