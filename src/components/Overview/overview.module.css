@@ -1,3 +1,10 @@
+.mainCol {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .mainCard {
   border-radius: 10px;
   background: #222222;
